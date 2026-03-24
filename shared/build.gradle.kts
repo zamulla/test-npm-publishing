@@ -42,7 +42,7 @@ npmPublish {
 
     packages {
         named("js") {
-            version = "0.0.1"
+            version = "0.0.3"
             packageName = "greetings"
             readme = file("../README.md")
 
