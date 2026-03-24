@@ -32,7 +32,7 @@ kotlin {
 }
 
 npmPublish {
-    organization = "awesome-kotlin"
+    organization = "test-karikaturkin"
 
     registries {
         npmjs {
@@ -42,7 +42,7 @@ npmPublish {
 
     packages {
         named("js") {
-            version = "0.0.3"
+            version = "0.0.1"
             packageName = "greetings"
             readme = file("../README.md")
 
@@ -52,12 +52,12 @@ npmPublish {
                 description = "Shared Kotlin/JS Greetings library"
                 keywords = listOf("kotlin", "kotlin-js", "greetings", "shared", "api")
                 author {
-                    name = "Kotlin Developer Advocate"
-                    url = "https://github.com/kotlin-hands-on/"
+                    name = "Aleksey Zamulla"
+                    url = "https://github.com/zamulla/"
                 }
                 repository {
                     type = "git"
-                    url = "https://github.com/Kotlin/kotlin-multiplatform-web-library.git"
+                    url = "https://github.com/zamulla/test-npm-publishing.git"
                 }
             }
         }
